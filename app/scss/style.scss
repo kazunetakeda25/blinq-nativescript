@@ -1,0 +1,89 @@
+@import './variables';
+@import './font';
+
+* {
+  @extend .font-roboto-light;
+  color: $font-color;
+}
+
+.font-color, .font-color-default {
+  color: $font-color;
+}
+
+.font-color-grey {
+  color: $font-button-grey-color;
+}
+
+.font-color-pink {
+  color: $color-pink;
+}
+
+.bg-default {
+  background-color: $default-bg;
+}
+
+.bg-grey, .bg-gray {
+  background-color: $color-grey;
+}
+
+.bg-pink {
+  background-color: $color-pink;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.home-section-header-title {
+  @extend .font-color;
+  @extend .font-roboto-light;
+  @extend .font-h2;
+  @extend .text-center;
+}
+
+.page-title {
+  @extend .font-color;
+  @extend .font-h3;
+  @extend .font-roboto-light;
+  @extend .text-center;
+}
+
+.page-section-title {
+  @extend .font-color;
+  @extend .font-h4;
+  @extend .font-roboto-light;
+  @extend .text-center;
+}
+
+.page-section-content {
+  @extend .font-color;
+  @extend .font-h9;
+  @extend .font-roboto-light;
+  @extend .text-center;
+}
+
+.common-section-content {
+  @extend .font-color;
+  @extend .font-h9;
+  @extend .font-roboto-light;
+}
+
+$border-shadow-color: #DADADA;
+
+.hr-line {
+  border-bottom: 1px solid $border-shadow-color;
+}
+
+.border-shadow {
+  border-left: 2 solid $border-shadow-color;
+  border-bottom: 2 solid $border-shadow-color;
+  border-right: 2 solid $border-shadow-color;
+}
+
+.selected-option-text {
+  @extend .font-roboto-light;
+}
+
+.select-option-text {
+  @extend .font-roboto-light;
+}

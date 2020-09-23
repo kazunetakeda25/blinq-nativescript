@@ -1,0 +1,7 @@
+#Tue Sep 17 15:39:03 CST 2019
+base.0=F\:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\platforms\\android\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=F\:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\platforms\\android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex

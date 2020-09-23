@@ -1,0 +1,6 @@
+export const ATTRIBUTE_STATUS = {
+  AVAILABLE: 1,
+  OUT_OF_STOCK: 0,
+  NOT_AVAILABLE: -1,
+  UNKNOW: -2,
+};

@@ -1,0 +1,55 @@
+{
+	"@nstudio/nativescript-camera-plus": {
+		"F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\node_modules\\@nstudio\\nativescript-camera-plus\\platforms\\android\\nativescript_camera_plus.aar": "6415280a811b54735066d4589cd4bf915da53914",
+		"F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\node_modules\\@nstudio\\nativescript-camera-plus\\platforms\\android\\include.gradle": "ef01053eada6ce1b01f5d305fa3feefccfef8e1c"
+	},
+	"nativescript-advanced-permissions": {
+		"F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\node_modules\\nativescript-advanced-permissions\\platforms\\android\\nativescript_advanced_permissions.aar": "c8e751c5150736d3509ac650fe1168a19c19966b",
+		"F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\node_modules\\nativescript-advanced-permissions\\platforms\\android\\include.gradle": "4945565d2e438104a7124474e0975db3692b0b02",
+		"F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\node_modules\\nativescript-advanced-permissions\\platforms\\android\\README.md": "45f2f63427be0a461a7e2dfd5ff0ad5bab64068f"
+	},
+	"nativescript-carousel": {
+		"F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\node_modules\\nativescript-carousel\\platforms\\android\\include.gradle": "2bf233838a57c60e7d3e631686336555060f519d"
+	},
+	"nativescript-imagepicker": {
+		"F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\node_modules\\nativescript-imagepicker\\platforms\\android\\README.md": "45f2f63427be0a461a7e2dfd5ff0ad5bab64068f",
+		"F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\node_modules\\nativescript-imagepicker\\platforms\\android\\nativescript_imagepicker.aar": "90efff56ef584bda767622569467189cf5c1f236"
+	},
+	"nativescript-material-button": {
+		"F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\node_modules\\nativescript-material-button\\platforms\\android\\res\\layout\\material_button_flat.xml": "416b334bc8a4c74dd2f85996c1fc29a7f3f7423d",
+		"F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\node_modules\\nativescript-material-button\\platforms\\android\\res\\layout\\material_button.xml": "3af1596c168b216b5554cce0a5785ecedda84fc1",
+		"F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\node_modules\\nativescript-material-button\\platforms\\android\\res\\layout\\material_button_text.xml": "11f39271e457bdbe466454e6d2b321aa590c58df",
+		"F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\node_modules\\nativescript-material-button\\platforms\\android\\nativescript_material_button.aar": "53a2f9967e22a4744c288c68ec6521ca53981177",
+		"F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\node_modules\\nativescript-material-button\\platforms\\android\\res\\values\\materialbuttonstyles.xml": "36d663db053deb05f09f6105fe39c6e9760f18a3",
+		"F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\node_modules\\nativescript-material-button\\platforms\\android\\include.gradle": "fce29a01d4e6f4aabcefb92850f1c40d4942a074"
+	},
+	"nativescript-plugin-firebase": {
+		"F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\node_modules\\nativescript-plugin-firebase\\platforms\\android\\.DS_Store": "08b9fd18287f85a1099bda47d40aa99d1aa5c40b",
+		"F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\node_modules\\nativescript-plugin-firebase\\platforms\\android\\firebase-release.aar-disabled": "e1a0244835b078d3faab4fcd4e1cc50828d2a161",
+		"F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\node_modules\\nativescript-plugin-firebase\\platforms\\android\\include.gradle": "625c67f0990ca2818801ab8e04e640eb0ddf97d5",
+		"F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\node_modules\\nativescript-plugin-firebase\\platforms\\android\\res\\raw\\beep.ogg": "1a522c83c9af8babf4b1aa83755ed93742a815c6",
+		"F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\node_modules\\nativescript-plugin-firebase\\platforms\\android\\nativescript-firebase-mlkit-helper.jar-disabled": "0f4108b7c15a199c7f7b452563488345afe403c6"
+	},
+	"nativescript-ripple": {
+		"F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\node_modules\\nativescript-ripple\\platforms\\android\\include.gradle": "ee3f45fc20461ff2234009c4333499e5b59f285d"
+	},
+	"nativescript-social-share": {
+		"F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\node_modules\\nativescript-social-share\\platforms\\android\\nativescript_social_share.aar": "cf8a832dbf68b3c28c104617db0285c4105961c8"
+	},
+	"nativescript-ui-sidedrawer": {
+		"F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\node_modules\\nativescript-ui-sidedrawer\\platforms\\android\\typings\\sidedrawer.d.ts": "8256a2295125597755fe6a6faee866b0750e65f2",
+		"F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\node_modules\\nativescript-ui-sidedrawer\\platforms\\android\\TNSSideDrawer-release.aar": "e6e4d527ff85743c270768018b9ea720ec5b9dda"
+	},
+	"nativescript-material-core": {
+		"F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\node_modules\\nativescript-material-core\\platforms\\android\\include.gradle": "c591ff19fe4ac38ba41beb22ea469a409e6c8348",
+		"F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\node_modules\\nativescript-material-core\\platforms\\android\\res\\layout\\material_page.xml": "29f912255e893697d6abd438f67a854149136292",
+		"F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\node_modules\\nativescript-material-core\\platforms\\android\\nativescript_material_core.aar": "5babb504cad841b45b4475142b3d4b6fca9d432b"
+	},
+	"nativescript-ui-core": {
+		"F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\node_modules\\nativescript-ui-core\\platforms\\android\\typings\\core.d.ts": "5c032652edfa1719ef8c8190fc0f66d3b1c313c2",
+		"F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\node_modules\\nativescript-ui-core\\platforms\\android\\TNSCore-release.aar": "0e2fe0b867821ad56b8f0b9c8ac4c90f4c399e3c"
+	},
+	"tns-core-modules-widgets": {
+		"F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\node_modules\\tns-core-modules-widgets\\platforms\\android\\widgets-release.aar": "b8f4f26de1babab93b25e62167b3467938288d52"
+	}
+}

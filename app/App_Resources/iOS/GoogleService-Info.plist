@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1012640019115-vfrabuscs5mkitfo4i4mvubg33nm7i2i.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1012640019115-vfrabuscs5mkitfo4i4mvubg33nm7i2i</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDeI7s6r4y_GeVxLCUgL4z2_FzLzdyZ-H0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1012640019115</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>fashion.blinq.app</string>
+	<key>PROJECT_ID</key>
+	<string>blinq-fashion-mobile-app</string>
+	<key>STORAGE_BUCKET</key>
+	<string>blinq-fashion-mobile-app.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1012640019115:ios:31654f785342a195</string>
+	<key>DATABASE_URL</key>
+	<string>https://blinq-fashion-mobile-app.firebaseio.com</string>
+</dict>
+</plist>

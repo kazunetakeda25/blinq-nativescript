@@ -1,0 +1,60 @@
+export const MODULE_NAME = 'home';
+
+/* GETTERS - START */
+const _GETTERS = {
+  BANNERS: 'getBanners',
+  TICKERS: 'getTickers',
+  MINI_BANNERS: 'getMiniBanners',
+  FEATURED_PRODUCTS: 'getFeaturedProducts',
+  BRANDS: 'getBrands',
+  BLOG_HIGHLIGHTS: 'getBlogHighlights',
+};
+
+export const GETTERS = {
+  BANNERS: `${MODULE_NAME}/${_GETTERS.BANNERS}`,
+  TICKERS: `${MODULE_NAME}/${_GETTERS.TICKERS}`,
+  MINI_BANNERS: `${MODULE_NAME}/${_GETTERS.MINI_BANNERS}`,
+  FEATURED_PRODUCTS: `${MODULE_NAME}/${_GETTERS.FEATURED_PRODUCTS}`,
+  BRANDS: `${MODULE_NAME}/${_GETTERS.BRANDS}`,
+  BLOG_HIGHLIGHTS: `${MODULE_NAME}/${_GETTERS.BLOG_HIGHLIGHTS}`,
+};
+/* GETTERS - END */
+
+/* ACTIONS - START */
+const _ACTIONS = {
+  LOAD_BANNERS: 'loadBanners',
+  LOAD_TICKERS: 'loadTickers',
+  LOAD_FEATURED_PRODUCTS: 'loadFeaturedProducts',
+  LOAD_BRANDS: 'loadHomeBrands',
+  LOAD_BLOG_HIGHLIGHTS: 'loadBlogHighlights',
+};
+
+export const ACTIONS = {
+  LOAD_BANNERS: `${MODULE_NAME}/${_ACTIONS.LOAD_BANNERS}`,
+  LOAD_TICKERS: `${MODULE_NAME}/${_ACTIONS.LOAD_TICKERS}`,
+  LOAD_MINI_BANNERS: `${MODULE_NAME}/${_ACTIONS.LOAD_MINI_BANNERS}`,
+  LOAD_FEATURED_PRODUCTS: `${MODULE_NAME}/${_ACTIONS.LOAD_FEATURED_PRODUCTS}`,
+  LOAD_BRANDS: `${MODULE_NAME}/${_ACTIONS.LOAD_BRANDS}`,
+  LOAD_BLOG_HIGHLIGHTS: `${MODULE_NAME}/${_ACTIONS.LOAD_BLOG_HIGHLIGHTS}`,
+};
+/* ACTIONS - END */
+
+/* MUTATIONS - START */
+const _MUTATORS = {
+  SET_BANNERS: 'setBanners',
+  SET_TICKERS: 'setTickers',
+  SET_MINI_BANNERS: 'setMiniBanners',
+  SET_FEATURED_PRODUCTS: 'setFeaturedProducts',
+  SET_BRANDS: 'setBrands',
+  SET_BLOG_HIGHLIGHTS: 'setBlogHighlights',
+};
+
+export const MUTATORS = {
+};
+/* MUTATIONS - END */
+
+export default {
+  _GETTERS,
+  _ACTIONS,
+  _MUTATORS,
+};
