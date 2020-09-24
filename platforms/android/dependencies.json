@@ -1,0 +1,86 @@
+[
+    {
+        "name": "@nstudio/nativescript-camera-plus",
+        "directory": "..\\..\\node_modules\\@nstudio\\nativescript-camera-plus"
+    },
+    {
+        "name": "nativescript-advanced-permissions",
+        "directory": "..\\..\\node_modules\\nativescript-advanced-permissions"
+    },
+    {
+        "name": "nativescript-bitmap-factory",
+        "directory": "..\\..\\node_modules\\nativescript-bitmap-factory"
+    },
+    {
+        "name": "nativescript-carousel",
+        "directory": "..\\..\\node_modules\\nativescript-carousel"
+    },
+    {
+        "name": "nativescript-imagepicker",
+        "directory": "..\\..\\node_modules\\nativescript-imagepicker"
+    },
+    {
+        "name": "nativescript-iqkeyboardmanager",
+        "directory": "..\\..\\node_modules\\nativescript-iqkeyboardmanager"
+    },
+    {
+        "name": "nativescript-material-button",
+        "directory": "..\\..\\node_modules\\nativescript-material-button"
+    },
+    {
+        "name": "nativescript-material-floatingactionbutton",
+        "directory": "..\\..\\node_modules\\nativescript-material-floatingactionbutton"
+    },
+    {
+        "name": "nativescript-plugin-firebase",
+        "directory": "..\\..\\node_modules\\nativescript-plugin-firebase"
+    },
+    {
+        "name": "nativescript-ripple",
+        "directory": "..\\..\\node_modules\\nativescript-ripple"
+    },
+    {
+        "name": "nativescript-social-share",
+        "directory": "..\\..\\node_modules\\nativescript-social-share"
+    },
+    {
+        "name": "nativescript-theme-core",
+        "directory": "..\\..\\node_modules\\nativescript-theme-core"
+    },
+    {
+        "name": "nativescript-ui-sidedrawer",
+        "directory": "..\\..\\node_modules\\nativescript-ui-sidedrawer"
+    },
+    {
+        "name": "nativescript-urlhandler",
+        "directory": "..\\..\\node_modules\\nativescript-urlhandler"
+    },
+    {
+        "name": "nativescript-vue",
+        "directory": "..\\..\\node_modules\\nativescript-vue"
+    },
+    {
+        "name": "nativescript-windowed-modal",
+        "directory": "..\\..\\node_modules\\nativescript-windowed-modal"
+    },
+    {
+        "name": "tns-core-modules",
+        "directory": "..\\..\\node_modules\\tns-core-modules"
+    },
+    {
+        "name": "nativescript-permissions",
+        "directory": "..\\..\\node_modules\\nativescript-permissions"
+    },
+    {
+        "name": "nativescript-material-core",
+        "directory": "..\\..\\node_modules\\nativescript-material-core"
+    },
+    {
+        "name": "nativescript-ui-core",
+        "directory": "..\\..\\node_modules\\nativescript-ui-core"
+    },
+    {
+        "name": "tns-core-modules-widgets",
+        "directory": "..\\..\\node_modules\\tns-core-modules-widgets"
+    }
+]

@@ -1,0 +1,1 @@
+F:\Mobile Development\Nativescript\BlinQ_updated_iOS\platforms\android\app/src/main/assets/app

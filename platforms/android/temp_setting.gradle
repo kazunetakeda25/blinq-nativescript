@@ -1,0 +1,13 @@
+android {
+            defaultConfig {
+                applicationId = "com.fashion.blinq"
+
+                if (false) {
+                    minSdkVersion = false
+                }
+
+                if (false) {
+                    targetSdkVersion = false
+                }
+            }
+        }

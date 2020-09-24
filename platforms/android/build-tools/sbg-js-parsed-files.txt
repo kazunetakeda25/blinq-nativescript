@@ -1,0 +1,4 @@
+F:\Mobile Development\Nativescript\BlinQ_updated_iOS\platforms\android\app\src\main\assets\app\bundle.js
+F:\Mobile Development\Nativescript\BlinQ_updated_iOS\platforms\android\app\src\main\assets\app\runtime.js
+F:\Mobile Development\Nativescript\BlinQ_updated_iOS\platforms\android\app\src\main\assets\app\tns-java-classes.js
+F:\Mobile Development\Nativescript\BlinQ_updated_iOS\platforms\android\app\src\main\assets\app\vendor.js

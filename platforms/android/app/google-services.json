@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1012640019115",
+    "firebase_url": "https://blinq-fashion-mobile-app.firebaseio.com",
+    "project_id": "blinq-fashion-mobile-app",
+    "storage_bucket": "blinq-fashion-mobile-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1012640019115:android:b2d8d8700fca382c",
+        "android_client_info": {
+          "package_name": "com.fashion.blinq"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1012640019115-oeql813pidbraoej49rogn0lh01ban42.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3Nz2wZf5_Jpb8KLK5qRpaOgjNeLyLOIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1012640019115-oeql813pidbraoej49rogn0lh01ban42.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
