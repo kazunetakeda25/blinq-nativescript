@@ -1,0 +1,10 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.nativescript.nativescript_material_button"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk android:targetSdkVersion="26" />
+7-->F:\Mobile Development\Nativescript\BlinQ_updated_iOS\platforms\tempPlugin\nativescript_material_button\src\main\AndroidManifest.xml
+8
+9</manifest>

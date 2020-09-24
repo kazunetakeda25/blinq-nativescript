@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\platforms\\tempPlugin\\nativescript_material_button\\build\\intermediates\\res\\merged\\release\\anim-v21\\mtrl_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\Sweet Mei\\.gradle\\caches\\transforms-2\\files-2.1\\32fe40c17e666ee6c49f74ca055fcc43\\material-1.1.0-alpha07\\res\\anim-v21\\mtrl_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\platforms\\tempPlugin\\nativescript_material_button\\build\\intermediates\\res\\merged\\release\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\Sweet Mei\\.gradle\\caches\\transforms-2\\files-2.1\\32fe40c17e666ee6c49f74ca055fcc43\\material-1.1.0-alpha07\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\platforms\\tempPlugin\\nativescript_material_button\\build\\intermediates\\res\\merged\\release\\anim-v21\\mtrl_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\Sweet Mei\\.gradle\\caches\\transforms-2\\files-2.1\\32fe40c17e666ee6c49f74ca055fcc43\\material-1.1.0-alpha07\\res\\anim-v21\\mtrl_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\platforms\\tempPlugin\\nativescript_material_button\\build\\intermediates\\res\\merged\\release\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\Sweet Mei\\.gradle\\caches\\transforms-2\\files-2.1\\32fe40c17e666ee6c49f74ca055fcc43\\material-1.1.0-alpha07\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+    }
+]

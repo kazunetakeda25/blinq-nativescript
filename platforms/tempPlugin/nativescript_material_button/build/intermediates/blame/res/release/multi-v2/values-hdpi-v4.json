@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\platforms\\tempPlugin\\nativescript_material_button\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Sweet Mei\\.gradle\\caches\\transforms-2\\files-2.1\\b65595d328d46285f8746819ca549a83\\appcompat-1.1.0-alpha05\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\platforms\\tempPlugin\\nativescript_material_button\\build\\intermediates\\res\\merged\\release\\values-hdpi-v4\\values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Sweet Mei\\.gradle\\caches\\transforms-2\\files-2.1\\b65595d328d46285f8746819ca549a83\\appcompat-1.1.0-alpha05\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

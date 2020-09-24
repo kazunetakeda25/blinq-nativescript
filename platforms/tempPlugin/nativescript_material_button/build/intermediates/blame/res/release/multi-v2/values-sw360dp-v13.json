@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\platforms\\tempPlugin\\nativescript_material_button\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Sweet Mei\\.gradle\\caches\\transforms-2\\files-2.1\\32fe40c17e666ee6c49f74ca055fcc43\\material-1.1.0-alpha07\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,109",
+                        "endColumns": "53,60",
+                        "endOffsets": "104,165"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\platforms\\tempPlugin\\nativescript_material_button\\build\\intermediates\\res\\merged\\release\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Sweet Mei\\.gradle\\caches\\transforms-2\\files-2.1\\32fe40c17e666ee6c49f74ca055fcc43\\material-1.1.0-alpha07\\res\\values-sw360dp-v13\\values-sw360dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,109",
+                        "endColumns": "53,60",
+                        "endOffsets": "104,165"
+                    }
+                }
+            ]
+        }
+    ]
+}
