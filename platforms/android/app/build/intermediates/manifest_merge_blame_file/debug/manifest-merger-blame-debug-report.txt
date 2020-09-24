@@ -1,0 +1,260 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.fashion.blinq"
+4    android:versionCode="22"
+5    android:versionName="0.3.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->F:\Mobile Development\Nativescript\BlinQ_updated_iOS\platforms\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->F:\Mobile Development\Nativescript\BlinQ_updated_iOS\platforms\android\app\src\main\AndroidManifest.xml
+10
+11    <supports-screens
+11-->F:\Mobile Development\Nativescript\BlinQ_updated_iOS\platforms\android\app\src\main\AndroidManifest.xml:7:2-11:33
+12        android:largeScreens="true"
+12-->F:\Mobile Development\Nativescript\BlinQ_updated_iOS\platforms\android\app\src\main\AndroidManifest.xml:10:3-30
+13        android:normalScreens="true"
+13-->F:\Mobile Development\Nativescript\BlinQ_updated_iOS\platforms\android\app\src\main\AndroidManifest.xml:9:3-31
+14        android:smallScreens="true"
+14-->F:\Mobile Development\Nativescript\BlinQ_updated_iOS\platforms\android\app\src\main\AndroidManifest.xml:8:3-30
+15        android:xlargeScreens="true" />
+15-->F:\Mobile Development\Nativescript\BlinQ_updated_iOS\platforms\android\app\src\main\AndroidManifest.xml:11:3-31
+16
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->F:\Mobile Development\Nativescript\BlinQ_updated_iOS\platforms\android\app\src\main\AndroidManifest.xml:13:2-76
+17-->F:\Mobile Development\Nativescript\BlinQ_updated_iOS\platforms\android\app\src\main\AndroidManifest.xml:13:19-74
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->F:\Mobile Development\Nativescript\BlinQ_updated_iOS\platforms\android\app\src\main\AndroidManifest.xml:14:2-77
+18-->F:\Mobile Development\Nativescript\BlinQ_updated_iOS\platforms\android\app\src\main\AndroidManifest.xml:14:19-75
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->F:\Mobile Development\Nativescript\BlinQ_updated_iOS\platforms\android\app\src\main\AndroidManifest.xml:15:2-63
+19-->F:\Mobile Development\Nativescript\BlinQ_updated_iOS\platforms\android\app\src\main\AndroidManifest.xml:15:19-61
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\63375d15a0a1a1a73bac8e0a17817683\play-services-measurement-17.0.0\AndroidManifest.xml:24:5-79
+20-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\63375d15a0a1a1a73bac8e0a17817683\play-services-measurement-17.0.0\AndroidManifest.xml:24:22-76
+21    <uses-permission android:name="android.permission.WAKE_LOCK" />
+21-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\63375d15a0a1a1a73bac8e0a17817683\play-services-measurement-17.0.0\AndroidManifest.xml:25:5-68
+21-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\63375d15a0a1a1a73bac8e0a17817683\play-services-measurement-17.0.0\AndroidManifest.xml:25:22-65
+22    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+22-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\63375d15a0a1a1a73bac8e0a17817683\play-services-measurement-17.0.0\AndroidManifest.xml:26:5-110
+22-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\63375d15a0a1a1a73bac8e0a17817683\play-services-measurement-17.0.0\AndroidManifest.xml:26:22-107
+23    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+23-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\9a64366e8e0c581066a56aa7a7a1efc1\firebase-iid-19.0.0\AndroidManifest.xml:26:5-82
+23-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\9a64366e8e0c581066a56aa7a7a1efc1\firebase-iid-19.0.0\AndroidManifest.xml:26:22-79
+24    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+24-->[:nativescript_camera_plus:] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\27204ad1bc67101725d63c0d2d15907c\jetified-nativescript_camera_plus\AndroidManifest.xml:11:5-71
+24-->[:nativescript_camera_plus:] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\27204ad1bc67101725d63c0d2d15907c\jetified-nativescript_camera_plus\AndroidManifest.xml:11:22-68
+25    <uses-permission android:name="android.permission.CAMERA" />
+25-->[:nativescript_camera_plus:] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\27204ad1bc67101725d63c0d2d15907c\jetified-nativescript_camera_plus\AndroidManifest.xml:12:5-65
+25-->[:nativescript_camera_plus:] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\27204ad1bc67101725d63c0d2d15907c\jetified-nativescript_camera_plus\AndroidManifest.xml:12:22-62
+26
+27    <uses-feature
+27-->[:nativescript_camera_plus:] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\27204ad1bc67101725d63c0d2d15907c\jetified-nativescript_camera_plus\AndroidManifest.xml:14:5-16:36
+28        android:name="android.hardware.camera"
+28-->[:nativescript_camera_plus:] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\27204ad1bc67101725d63c0d2d15907c\jetified-nativescript_camera_plus\AndroidManifest.xml:15:9-47
+29        android:required="false" />
+29-->[:nativescript_camera_plus:] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\27204ad1bc67101725d63c0d2d15907c\jetified-nativescript_camera_plus\AndroidManifest.xml:16:9-33
+30    <uses-feature
+30-->[:nativescript_camera_plus:] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\27204ad1bc67101725d63c0d2d15907c\jetified-nativescript_camera_plus\AndroidManifest.xml:17:5-19:36
+31        android:name="android.hardware.camera.front"
+31-->[:nativescript_camera_plus:] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\27204ad1bc67101725d63c0d2d15907c\jetified-nativescript_camera_plus\AndroidManifest.xml:18:9-53
+32        android:required="false" />
+32-->[:nativescript_camera_plus:] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\27204ad1bc67101725d63c0d2d15907c\jetified-nativescript_camera_plus\AndroidManifest.xml:19:9-33
+33    <uses-feature
+33-->[:nativescript_camera_plus:] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\27204ad1bc67101725d63c0d2d15907c\jetified-nativescript_camera_plus\AndroidManifest.xml:20:5-22:36
+34        android:name="android.hardware.camera.autofocus"
+34-->[:nativescript_camera_plus:] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\27204ad1bc67101725d63c0d2d15907c\jetified-nativescript_camera_plus\AndroidManifest.xml:21:9-57
+35        android:required="false" />
+35-->[:nativescript_camera_plus:] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\27204ad1bc67101725d63c0d2d15907c\jetified-nativescript_camera_plus\AndroidManifest.xml:22:9-33
+36
+37    <application
+37-->F:\Mobile Development\Nativescript\BlinQ_updated_iOS\platforms\android\app\src\main\AndroidManifest.xml:17:2-43:16
+38        android:name="com.tns.NativeScriptApplication"
+38-->F:\Mobile Development\Nativescript\BlinQ_updated_iOS\platforms\android\app\src\main\AndroidManifest.xml:18:3-49
+39        android:allowBackup="true"
+39-->F:\Mobile Development\Nativescript\BlinQ_updated_iOS\platforms\android\app\src\main\AndroidManifest.xml:19:3-29
+40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+40-->[androidx.core:core:1.1.0-beta01] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\7b443eb2efed139ed9a399d9c1d9cc0e\core-1.1.0-beta01\AndroidManifest.xml:22:18-86
+41        android:debuggable="true"
+42        android:icon="@drawable/icon"
+42-->F:\Mobile Development\Nativescript\BlinQ_updated_iOS\platforms\android\app\src\main\AndroidManifest.xml:20:3-32
+43        android:label="@string/app_name"
+43-->F:\Mobile Development\Nativescript\BlinQ_updated_iOS\platforms\android\app\src\main\AndroidManifest.xml:21:3-35
+44        android:theme="@style/AppTheme" >
+44-->F:\Mobile Development\Nativescript\BlinQ_updated_iOS\platforms\android\app\src\main\AndroidManifest.xml:22:3-34
+45        <activity
+45-->F:\Mobile Development\Nativescript\BlinQ_updated_iOS\platforms\android\app\src\main\AndroidManifest.xml:24:3-41:14
+46            android:name="com.tns.NativeScriptActivity"
+46-->F:\Mobile Development\Nativescript\BlinQ_updated_iOS\platforms\android\app\src\main\AndroidManifest.xml:25:4-47
+47            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|smallestScreenSize|screenLayout|locale|uiMode"
+47-->F:\Mobile Development\Nativescript\BlinQ_updated_iOS\platforms\android\app\src\main\AndroidManifest.xml:27:4-120
+48            android:label="@string/title_activity_kimera"
+48-->F:\Mobile Development\Nativescript\BlinQ_updated_iOS\platforms\android\app\src\main\AndroidManifest.xml:26:4-49
+49            android:launchMode="singleTask"
+49-->F:\Mobile Development\Nativescript\BlinQ_updated_iOS\platforms\android\app\src\main\AndroidManifest.xml:29:4-35
+50            android:theme="@style/AppTheme" >
+50-->F:\Mobile Development\Nativescript\BlinQ_updated_iOS\platforms\android\app\src\main\AndroidManifest.xml:28:4-35
+51            <intent-filter>
+51-->F:\Mobile Development\Nativescript\BlinQ_updated_iOS\platforms\android\app\src\main\AndroidManifest.xml:30:4-33:20
+52                <action android:name="android.intent.action.MAIN" />
+52-->F:\Mobile Development\Nativescript\BlinQ_updated_iOS\platforms\android\app\src\main\AndroidManifest.xml:31:5-57
+52-->F:\Mobile Development\Nativescript\BlinQ_updated_iOS\platforms\android\app\src\main\AndroidManifest.xml:31:13-54
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->F:\Mobile Development\Nativescript\BlinQ_updated_iOS\platforms\android\app\src\main\AndroidManifest.xml:32:5-65
+54-->F:\Mobile Development\Nativescript\BlinQ_updated_iOS\platforms\android\app\src\main\AndroidManifest.xml:32:15-62
+55            </intent-filter>
+56            <intent-filter>
+56-->F:\Mobile Development\Nativescript\BlinQ_updated_iOS\platforms\android\app\src\main\AndroidManifest.xml:34:4-40:21
+57                <action android:name="android.intent.action.VIEW" />
+57-->F:\Mobile Development\Nativescript\BlinQ_updated_iOS\platforms\android\app\src\main\AndroidManifest.xml:35:9-61
+57-->F:\Mobile Development\Nativescript\BlinQ_updated_iOS\platforms\android\app\src\main\AndroidManifest.xml:35:17-58
+58
+59                <category android:name="android.intent.category.DEFAULT" />
+59-->F:\Mobile Development\Nativescript\BlinQ_updated_iOS\platforms\android\app\src\main\AndroidManifest.xml:36:9-68
+59-->F:\Mobile Development\Nativescript\BlinQ_updated_iOS\platforms\android\app\src\main\AndroidManifest.xml:36:19-65
+60                <category android:name="android.intent.category.BROWSABLE" />
+60-->F:\Mobile Development\Nativescript\BlinQ_updated_iOS\platforms\android\app\src\main\AndroidManifest.xml:37:9-70
+60-->F:\Mobile Development\Nativescript\BlinQ_updated_iOS\platforms\android\app\src\main\AndroidManifest.xml:37:19-67
+61                <!-- Accepts URIs that begin with "blinq-fashion-app://blinq.fashion" -->
+62                <data
+62-->F:\Mobile Development\Nativescript\BlinQ_updated_iOS\platforms\android\app\src\main\AndroidManifest.xml:39:9-81
+63                    android:host="blinq.fashion"
+63-->F:\Mobile Development\Nativescript\BlinQ_updated_iOS\platforms\android\app\src\main\AndroidManifest.xml:39:50-78
+64                    android:scheme="blinq-fashion-app" />
+64-->F:\Mobile Development\Nativescript\BlinQ_updated_iOS\platforms\android\app\src\main\AndroidManifest.xml:39:15-49
+65            </intent-filter>
+66        </activity>
+67        <activity android:name="com.tns.ErrorReportActivity" />
+67-->F:\Mobile Development\Nativescript\BlinQ_updated_iOS\platforms\android\app\src\main\AndroidManifest.xml:42:3-57
+67-->F:\Mobile Development\Nativescript\BlinQ_updated_iOS\platforms\android\app\src\main\AndroidManifest.xml:42:13-55
+68
+69        <receiver
+69-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\63375d15a0a1a1a73bac8e0a17817683\play-services-measurement-17.0.0\AndroidManifest.xml:29:9-33:20
+70            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+70-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\63375d15a0a1a1a73bac8e0a17817683\play-services-measurement-17.0.0\AndroidManifest.xml:30:13-85
+71            android:enabled="true"
+71-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\63375d15a0a1a1a73bac8e0a17817683\play-services-measurement-17.0.0\AndroidManifest.xml:31:13-35
+72            android:exported="false" >
+72-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\63375d15a0a1a1a73bac8e0a17817683\play-services-measurement-17.0.0\AndroidManifest.xml:32:13-37
+73        </receiver>
+74        <receiver
+74-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\63375d15a0a1a1a73bac8e0a17817683\play-services-measurement-17.0.0\AndroidManifest.xml:34:9-42:20
+75            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+75-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\63375d15a0a1a1a73bac8e0a17817683\play-services-measurement-17.0.0\AndroidManifest.xml:35:13-100
+76            android:enabled="true"
+76-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\63375d15a0a1a1a73bac8e0a17817683\play-services-measurement-17.0.0\AndroidManifest.xml:36:13-35
+77            android:exported="true"
+77-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\63375d15a0a1a1a73bac8e0a17817683\play-services-measurement-17.0.0\AndroidManifest.xml:37:13-36
+78            android:permission="android.permission.INSTALL_PACKAGES" >
+78-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\63375d15a0a1a1a73bac8e0a17817683\play-services-measurement-17.0.0\AndroidManifest.xml:38:13-69
+79            <intent-filter>
+79-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\63375d15a0a1a1a73bac8e0a17817683\play-services-measurement-17.0.0\AndroidManifest.xml:39:13-41:29
+80                <action android:name="com.android.vending.INSTALL_REFERRER" />
+80-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\63375d15a0a1a1a73bac8e0a17817683\play-services-measurement-17.0.0\AndroidManifest.xml:40:17-79
+80-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\63375d15a0a1a1a73bac8e0a17817683\play-services-measurement-17.0.0\AndroidManifest.xml:40:25-76
+81            </intent-filter>
+82        </receiver>
+83
+84        <service
+84-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\63375d15a0a1a1a73bac8e0a17817683\play-services-measurement-17.0.0\AndroidManifest.xml:44:9-47:40
+85            android:name="com.google.android.gms.measurement.AppMeasurementService"
+85-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\63375d15a0a1a1a73bac8e0a17817683\play-services-measurement-17.0.0\AndroidManifest.xml:45:13-84
+86            android:enabled="true"
+86-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\63375d15a0a1a1a73bac8e0a17817683\play-services-measurement-17.0.0\AndroidManifest.xml:46:13-35
+87            android:exported="false" />
+87-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\63375d15a0a1a1a73bac8e0a17817683\play-services-measurement-17.0.0\AndroidManifest.xml:47:13-37
+88        <service
+88-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\63375d15a0a1a1a73bac8e0a17817683\play-services-measurement-17.0.0\AndroidManifest.xml:48:9-52:72
+89            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+89-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\63375d15a0a1a1a73bac8e0a17817683\play-services-measurement-17.0.0\AndroidManifest.xml:49:13-87
+90            android:enabled="true"
+90-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\63375d15a0a1a1a73bac8e0a17817683\play-services-measurement-17.0.0\AndroidManifest.xml:50:13-35
+91            android:exported="false"
+91-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\63375d15a0a1a1a73bac8e0a17817683\play-services-measurement-17.0.0\AndroidManifest.xml:51:13-37
+92            android:permission="android.permission.BIND_JOB_SERVICE" />
+92-->[com.google.android.gms:play-services-measurement:17.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\63375d15a0a1a1a73bac8e0a17817683\play-services-measurement-17.0.0\AndroidManifest.xml:52:13-69
+93        <service
+93-->[com.google.android.gms:play-services-measurement-api:17.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\232cf311fd5cd5ac5486a78047ce7135\play-services-measurement-api-17.0.0\AndroidManifest.xml:27:9-33:19
+94            android:name="com.google.firebase.components.ComponentDiscoveryService"
+94-->[com.google.android.gms:play-services-measurement-api:17.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\232cf311fd5cd5ac5486a78047ce7135\play-services-measurement-api-17.0.0\AndroidManifest.xml:28:13-84
+95            android:exported="false" >
+95-->[com.google.android.gms:play-services-measurement-api:17.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\232cf311fd5cd5ac5486a78047ce7135\play-services-measurement-api-17.0.0\AndroidManifest.xml:29:13-37
+96            <meta-data
+96-->[com.google.android.gms:play-services-measurement-api:17.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\232cf311fd5cd5ac5486a78047ce7135\play-services-measurement-api-17.0.0\AndroidManifest.xml:30:13-32:85
+97                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+97-->[com.google.android.gms:play-services-measurement-api:17.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\232cf311fd5cd5ac5486a78047ce7135\play-services-measurement-api-17.0.0\AndroidManifest.xml:31:17-139
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[com.google.android.gms:play-services-measurement-api:17.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\232cf311fd5cd5ac5486a78047ce7135\play-services-measurement-api-17.0.0\AndroidManifest.xml:32:17-82
+99            <meta-data
+99-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\9a64366e8e0c581066a56aa7a7a1efc1\firebase-iid-19.0.0\AndroidManifest.xml:32:13-34:85
+100                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+100-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\9a64366e8e0c581066a56aa7a7a1efc1\firebase-iid-19.0.0\AndroidManifest.xml:33:17-96
+101                android:value="com.google.firebase.components.ComponentRegistrar" />
+101-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\9a64366e8e0c581066a56aa7a7a1efc1\firebase-iid-19.0.0\AndroidManifest.xml:34:17-82
+102        </service>
+103
+104        <receiver
+104-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\9a64366e8e0c581066a56aa7a7a1efc1\firebase-iid-19.0.0\AndroidManifest.xml:37:9-44:20
+105            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+105-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\9a64366e8e0c581066a56aa7a7a1efc1\firebase-iid-19.0.0\AndroidManifest.xml:38:13-78
+106            android:exported="true"
+106-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\9a64366e8e0c581066a56aa7a7a1efc1\firebase-iid-19.0.0\AndroidManifest.xml:39:13-36
+107            android:permission="com.google.android.c2dm.permission.SEND" >
+107-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\9a64366e8e0c581066a56aa7a7a1efc1\firebase-iid-19.0.0\AndroidManifest.xml:40:13-73
+108            <intent-filter>
+108-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\9a64366e8e0c581066a56aa7a7a1efc1\firebase-iid-19.0.0\AndroidManifest.xml:41:13-43:29
+109                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+109-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\9a64366e8e0c581066a56aa7a7a1efc1\firebase-iid-19.0.0\AndroidManifest.xml:42:17-81
+109-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\9a64366e8e0c581066a56aa7a7a1efc1\firebase-iid-19.0.0\AndroidManifest.xml:42:25-78
+110            </intent-filter>
+111        </receiver>
+112
+113        <provider
+113-->[com.google.firebase:firebase-common:18.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\df4e8a861cd4ef665f3e69a885a2cd78\firebase-common-18.0.0\AndroidManifest.xml:12:9-16:39
+114            android:name="com.google.firebase.provider.FirebaseInitProvider"
+114-->[com.google.firebase:firebase-common:18.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\df4e8a861cd4ef665f3e69a885a2cd78\firebase-common-18.0.0\AndroidManifest.xml:13:13-77
+115            android:authorities="com.fashion.blinq.firebaseinitprovider"
+115-->[com.google.firebase:firebase-common:18.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\df4e8a861cd4ef665f3e69a885a2cd78\firebase-common-18.0.0\AndroidManifest.xml:14:13-72
+116            android:exported="false"
+116-->[com.google.firebase:firebase-common:18.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\df4e8a861cd4ef665f3e69a885a2cd78\firebase-common-18.0.0\AndroidManifest.xml:15:13-37
+117            android:initOrder="100" />
+117-->[com.google.firebase:firebase-common:18.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\df4e8a861cd4ef665f3e69a885a2cd78\firebase-common-18.0.0\AndroidManifest.xml:16:13-36
+118
+119        <activity
+119-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\c7fb7652227a32f2b5de9f5036a5e5dd\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+120            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+120-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\c7fb7652227a32f2b5de9f5036a5e5dd\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+121            android:exported="false"
+121-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\c7fb7652227a32f2b5de9f5036a5e5dd\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+122            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+122-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\c7fb7652227a32f2b5de9f5036a5e5dd\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+123
+124        <meta-data
+124-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\e773b7e189e35adc514dea4699ecf79d\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+125            android:name="com.google.android.gms.version"
+125-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\e773b7e189e35adc514dea4699ecf79d\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+126            android:value="@integer/google_play_services_version" />
+126-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\e773b7e189e35adc514dea4699ecf79d\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+127
+128        <provider
+128-->[:nativescript_camera_plus:] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\27204ad1bc67101725d63c0d2d15907c\jetified-nativescript_camera_plus\AndroidManifest.xml:25:9-33:20
+129            android:name="androidx.core.content.FileProvider"
+129-->[:nativescript_camera_plus:] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\27204ad1bc67101725d63c0d2d15907c\jetified-nativescript_camera_plus\AndroidManifest.xml:26:13-62
+130            android:authorities="com.fashion.blinq.provider"
+130-->[:nativescript_camera_plus:] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\27204ad1bc67101725d63c0d2d15907c\jetified-nativescript_camera_plus\AndroidManifest.xml:27:13-60
+131            android:exported="false"
+131-->[:nativescript_camera_plus:] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\27204ad1bc67101725d63c0d2d15907c\jetified-nativescript_camera_plus\AndroidManifest.xml:28:13-37
+132            android:grantUriPermissions="true" >
+132-->[:nativescript_camera_plus:] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\27204ad1bc67101725d63c0d2d15907c\jetified-nativescript_camera_plus\AndroidManifest.xml:29:13-47
+133            <meta-data
+133-->[:nativescript_camera_plus:] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\27204ad1bc67101725d63c0d2d15907c\jetified-nativescript_camera_plus\AndroidManifest.xml:30:13-32:58
+134                android:name="android.support.FILE_PROVIDER_PATHS"
+134-->[:nativescript_camera_plus:] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\27204ad1bc67101725d63c0d2d15907c\jetified-nativescript_camera_plus\AndroidManifest.xml:31:17-67
+135                android:resource="@xml/provider_paths" />
+135-->[:nativescript_camera_plus:] C:\Users\Sweet Mei\.gradle\caches\transforms-2\files-2.1\27204ad1bc67101725d63c0d2d15907c\jetified-nativescript_camera_plus\AndroidManifest.xml:32:17-55
+136        </provider>
+137    </application>
+138
+139</manifest>
