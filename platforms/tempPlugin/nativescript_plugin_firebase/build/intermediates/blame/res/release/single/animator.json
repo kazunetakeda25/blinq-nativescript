@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\platforms\\tempPlugin\\nativescript_plugin_firebase\\build\\intermediates\\res\\merged\\release\\animator\\mtrl_fab_hide_motion_spec.xml",
+        "source": "C:\\Users\\Sweet Mei\\.gradle\\caches\\transforms-2\\files-2.1\\e3decd5bf9fbc8536b88bb6c57360e20\\design-28.0.0\\res\\animator\\mtrl_fab_hide_motion_spec.xml"
+    },
+    {
+        "merged": "F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\platforms\\tempPlugin\\nativescript_plugin_firebase\\build\\intermediates\\res\\merged\\release\\animator\\mtrl_chip_state_list_anim.xml",
+        "source": "C:\\Users\\Sweet Mei\\.gradle\\caches\\transforms-2\\files-2.1\\e3decd5bf9fbc8536b88bb6c57360e20\\design-28.0.0\\res\\animator\\mtrl_chip_state_list_anim.xml"
+    },
+    {
+        "merged": "F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\platforms\\tempPlugin\\nativescript_plugin_firebase\\build\\intermediates\\res\\merged\\release\\animator\\mtrl_fab_transformation_sheet_expand_spec.xml",
+        "source": "C:\\Users\\Sweet Mei\\.gradle\\caches\\transforms-2\\files-2.1\\e3decd5bf9fbc8536b88bb6c57360e20\\design-28.0.0\\res\\animator\\mtrl_fab_transformation_sheet_expand_spec.xml"
+    },
+    {
+        "merged": "F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\platforms\\tempPlugin\\nativescript_plugin_firebase\\build\\intermediates\\res\\merged\\release\\animator\\mtrl_fab_show_motion_spec.xml",
+        "source": "C:\\Users\\Sweet Mei\\.gradle\\caches\\transforms-2\\files-2.1\\e3decd5bf9fbc8536b88bb6c57360e20\\design-28.0.0\\res\\animator\\mtrl_fab_show_motion_spec.xml"
+    },
+    {
+        "merged": "F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\platforms\\tempPlugin\\nativescript_plugin_firebase\\build\\intermediates\\res\\merged\\release\\animator\\design_fab_hide_motion_spec.xml",
+        "source": "C:\\Users\\Sweet Mei\\.gradle\\caches\\transforms-2\\files-2.1\\e3decd5bf9fbc8536b88bb6c57360e20\\design-28.0.0\\res\\animator\\design_fab_hide_motion_spec.xml"
+    },
+    {
+        "merged": "F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\platforms\\tempPlugin\\nativescript_plugin_firebase\\build\\intermediates\\res\\merged\\release\\animator\\design_fab_show_motion_spec.xml",
+        "source": "C:\\Users\\Sweet Mei\\.gradle\\caches\\transforms-2\\files-2.1\\e3decd5bf9fbc8536b88bb6c57360e20\\design-28.0.0\\res\\animator\\design_fab_show_motion_spec.xml"
+    },
+    {
+        "merged": "F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\platforms\\tempPlugin\\nativescript_plugin_firebase\\build\\intermediates\\res\\merged\\release\\animator\\mtrl_fab_transformation_sheet_collapse_spec.xml",
+        "source": "C:\\Users\\Sweet Mei\\.gradle\\caches\\transforms-2\\files-2.1\\e3decd5bf9fbc8536b88bb6c57360e20\\design-28.0.0\\res\\animator\\mtrl_fab_transformation_sheet_collapse_spec.xml"
+    },
+    {
+        "merged": "F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\platforms\\tempPlugin\\nativescript_plugin_firebase\\build\\intermediates\\res\\merged\\release\\animator\\mtrl_btn_state_list_anim.xml",
+        "source": "C:\\Users\\Sweet Mei\\.gradle\\caches\\transforms-2\\files-2.1\\e3decd5bf9fbc8536b88bb6c57360e20\\design-28.0.0\\res\\animator\\mtrl_btn_state_list_anim.xml"
+    },
+    {
+        "merged": "F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\platforms\\tempPlugin\\nativescript_plugin_firebase\\build\\intermediates\\res\\merged\\release\\animator\\mtrl_btn_unelevated_state_list_anim.xml",
+        "source": "C:\\Users\\Sweet Mei\\.gradle\\caches\\transforms-2\\files-2.1\\e3decd5bf9fbc8536b88bb6c57360e20\\design-28.0.0\\res\\animator\\mtrl_btn_unelevated_state_list_anim.xml"
+    }
+]
