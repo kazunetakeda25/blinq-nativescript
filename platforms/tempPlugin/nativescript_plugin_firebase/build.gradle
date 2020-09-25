@@ -1,0 +1,182 @@
+import groovy.json.JsonSlurper
+
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.5.0'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        mavenLocal()
+        mavenCentral()
+        maven {
+            url 'https://maven.google.com/'
+            name 'Google'
+        }
+        jcenter()
+    }
+}
+
+apply plugin: 'com.android.library'
+
+def computeCompileSdkVersion = { -> project.hasProperty("compileSdk") ? compileSdk : 28 }
+def computeBuildToolsVersion = { ->
+    project.hasProperty("buildToolsVersion") ? buildToolsVersion : "28.0.3"
+}
+
+android {
+    applyBeforePluginGradleConfiguration()
+
+    compileSdkVersion computeCompileSdkVersion()
+    buildToolsVersion computeBuildToolsVersion()
+
+    defaultConfig {
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+    }
+}
+
+dependencies {
+    def supportVer = "28.0.0"
+    if (project.hasProperty("supportVersion")) {
+        supportVer = supportVersion
+    }
+    compileOnly "com.android.support:support-v4:$supportVer"
+    compileOnly "com.android.support:appcompat-v7:$supportVer"
+
+    configurations.all {
+       resolutionStrategy.eachDependency { DependencyResolveDetails details ->
+           if (details.requested.group == "com.android.support" && !details.requested.name.startsWith("multidex")) {
+               details.useVersion supportVer
+           }
+       }
+    }
+}
+
+def getAppResourcesPath() {
+    def relativePathToApp = "app"
+    def relativePathToAppResources
+    def absolutePathToAppResources
+    def projectRoot = "$rootDir/../../.."
+    def nsConfigFile = file("$projectRoot/nsconfig.json")
+    def nsConfig
+
+    if (nsConfigFile.exists()) {
+        nsConfig = new JsonSlurper().parseText(nsConfigFile.getText("UTF-8"))
+    }
+
+    if(nsConfig != null && nsConfig.appPath != null){
+        relativePathToApp = nsConfig.appPath
+    }
+
+    if(nsConfig != null && nsConfig.appResourcesPath != null ) {
+        relativePathToAppResources = nsConfig.appResourcesPath
+    } else {
+        relativePathToAppResources  = "$relativePathToApp/App_Resources"
+    }
+
+    absolutePathToAppResources = java.nio.file.Paths.get(projectRoot).resolve(relativePathToAppResources).toAbsolutePath()
+
+    project.ext.appResourcesPath = absolutePathToAppResources
+
+    return absolutePathToAppResources
+}
+
+def applyBeforePluginGradleConfiguration() {
+    def appResourcesPath = getAppResourcesPath()
+    def pathToBeforePluginGradle = "$appResourcesPath/Android/before-plugins.gradle"
+    def beforePluginGradle = file(pathToBeforePluginGradle)
+    if (beforePluginGradle.exists()) {
+        println "\t + applying user-defined configuration from ${beforePluginGradle}"
+        apply from: pathToBeforePluginGradle
+    }
+}
+repositories {
+    mavenCentral()
+    maven {
+        url "https://maven.google.com"
+    }
+    jcenter()
+}
+dependencies {
+    def supportVersion = project.hasProperty("supportVersion") ? project.supportVersion : "26.1.0"
+    def googlePlayServicesVersion = project.hasProperty('googlePlayServicesVersion') ? project.googlePlayServicesVersion : "16.0.1"
+
+    if (googlePlayServicesVersion != '+' && org.gradle.util.VersionNumber.parse(googlePlayServicesVersion) < org.gradle.util.VersionNumber.parse('15.0.+')) {
+        throw new GradleException(" googlePlayServicesVersion set too low, please update to at least 15.0.0 / 15.0.+ (currently set to $googlePlayServicesVersion)");
+    }
+
+    implementation "com.android.support:appcompat-v7:$supportVersion"
+    implementation "com.android.support:cardview-v7:$supportVersion"
+    implementation "com.android.support:customtabs:$supportVersion"
+    implementation "com.android.support:design:$supportVersion"
+    implementation "com.android.support:support-compat:$supportVersion"
+
+    // make sure you have these versions by updating your local Android SDK's (Android Support repo and Google repo)
+    implementation "com.google.firebase:firebase-core:17.0.1"
+
+    // for reading google-services.json and configuration
+    implementation "com.google.android.gms:play-services-base:$googlePlayServicesVersion"
+
+    // Authentication
+    // implementation "com.google.firebase:firebase-auth:18.1.0"
+
+    // Realtime DB
+    // implementation "com.google.firebase:firebase-database:18.0.1"
+
+    // Cloud Firestore
+    // implementation "com.google.firebase:firebase-firestore:20.2.0"
+
+    // Remote Config
+    // implementation "com.google.firebase:firebase-config:18.0.0"
+
+    // Performance Monitoring
+    // implementation "com.google.firebase:firebase-perf:18.0.1"
+
+    // Crashlytics
+    // implementation "com.crashlytics.sdk.android:crashlytics:2.10.1"
+
+    // Cloud Messaging (FCM)
+    // implementation "com.google.firebase:firebase-messaging:19.0.1"
+    // // implementation "me.leolin:ShortcutBadger:1.1.22@aar"
+
+    // In-App Messaging
+    // implementation "com.google.firebase:firebase-inappmessaging-display:18.0.2"
+
+    // Cloud Storage
+    // implementation "com.google.firebase:firebase-storage:18.1.1"
+
+    // Cloud Functions
+    // implementation "com.google.firebase:firebase-functions:18.1.0"
+
+    // AdMob / Ads
+    // implementation "com.google.firebase:firebase-ads:18.1.1"
+
+    // ML Kit
+    // implementation "com.google.firebase:firebase-ml-vision:22.0.0"
+    // implementation "com.google.firebase:firebase-ml-vision-image-label-model:18.0.0"
+    // implementation "com.google.firebase:firebase-ml-vision-object-detection-model:18.0.0"
+    // implementation "com.google.firebase:firebase-ml-model-interpreter:20.0.1"
+    // implementation "com.google.firebase:firebase-ml-natural-language:20.0.2"
+    // implementation "com.google.firebase:firebase-ml-natural-language-language-id-model:20.0.2"
+    // implementation "com.google.firebase:firebase-ml-natural-language-smart-reply-model:20.0.2"
+
+    // Facebook Authentication
+    // implementation "com.facebook.android:facebook-core:5.4.0"
+    // implementation "com.facebook.android:facebook-login:5.4.0"
+
+    // Google Sign-In Authentication
+    // implementation "com.google.android.gms:play-services-auth:$googlePlayServicesVersion"
+
+    // Dynamic Links
+    // implementation "com.google.firebase:firebase-dynamic-links:18.0.0"
+}
