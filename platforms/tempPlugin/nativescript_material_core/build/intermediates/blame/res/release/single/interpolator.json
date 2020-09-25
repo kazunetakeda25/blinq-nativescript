@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\platforms\\tempPlugin\\nativescript_material_core\\build\\intermediates\\res\\merged\\release\\interpolator\\btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml",
+        "source": "C:\\Users\\Sweet Mei\\.gradle\\caches\\transforms-2\\files-2.1\\b65595d328d46285f8746819ca549a83\\appcompat-1.1.0-alpha05\\res\\interpolator\\btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml"
+    },
+    {
+        "merged": "F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\platforms\\tempPlugin\\nativescript_material_core\\build\\intermediates\\res\\merged\\release\\interpolator\\btn_radio_to_off_mtrl_animation_interpolator_0.xml",
+        "source": "C:\\Users\\Sweet Mei\\.gradle\\caches\\transforms-2\\files-2.1\\b65595d328d46285f8746819ca549a83\\appcompat-1.1.0-alpha05\\res\\interpolator\\btn_radio_to_off_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\platforms\\tempPlugin\\nativescript_material_core\\build\\intermediates\\res\\merged\\release\\interpolator\\mtrl_linear_out_slow_in.xml",
+        "source": "C:\\Users\\Sweet Mei\\.gradle\\caches\\transforms-2\\files-2.1\\32fe40c17e666ee6c49f74ca055fcc43\\material-1.1.0-alpha07\\res\\interpolator\\mtrl_linear_out_slow_in.xml"
+    },
+    {
+        "merged": "F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\platforms\\tempPlugin\\nativescript_material_core\\build\\intermediates\\res\\merged\\release\\interpolator\\mtrl_fast_out_slow_in.xml",
+        "source": "C:\\Users\\Sweet Mei\\.gradle\\caches\\transforms-2\\files-2.1\\32fe40c17e666ee6c49f74ca055fcc43\\material-1.1.0-alpha07\\res\\interpolator\\mtrl_fast_out_slow_in.xml"
+    },
+    {
+        "merged": "F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\platforms\\tempPlugin\\nativescript_material_core\\build\\intermediates\\res\\merged\\release\\interpolator\\btn_checkbox_checked_mtrl_animation_interpolator_0.xml",
+        "source": "C:\\Users\\Sweet Mei\\.gradle\\caches\\transforms-2\\files-2.1\\b65595d328d46285f8746819ca549a83\\appcompat-1.1.0-alpha05\\res\\interpolator\\btn_checkbox_checked_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\platforms\\tempPlugin\\nativescript_material_core\\build\\intermediates\\res\\merged\\release\\interpolator\\mtrl_fast_out_linear_in.xml",
+        "source": "C:\\Users\\Sweet Mei\\.gradle\\caches\\transforms-2\\files-2.1\\32fe40c17e666ee6c49f74ca055fcc43\\material-1.1.0-alpha07\\res\\interpolator\\mtrl_fast_out_linear_in.xml"
+    },
+    {
+        "merged": "F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\platforms\\tempPlugin\\nativescript_material_core\\build\\intermediates\\res\\merged\\release\\interpolator\\btn_checkbox_checked_mtrl_animation_interpolator_1.xml",
+        "source": "C:\\Users\\Sweet Mei\\.gradle\\caches\\transforms-2\\files-2.1\\b65595d328d46285f8746819ca549a83\\appcompat-1.1.0-alpha05\\res\\interpolator\\btn_checkbox_checked_mtrl_animation_interpolator_1.xml"
+    },
+    {
+        "merged": "F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\platforms\\tempPlugin\\nativescript_material_core\\build\\intermediates\\res\\merged\\release\\interpolator\\mtrl_linear.xml",
+        "source": "C:\\Users\\Sweet Mei\\.gradle\\caches\\transforms-2\\files-2.1\\32fe40c17e666ee6c49f74ca055fcc43\\material-1.1.0-alpha07\\res\\interpolator\\mtrl_linear.xml"
+    },
+    {
+        "merged": "F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\platforms\\tempPlugin\\nativescript_material_core\\build\\intermediates\\res\\merged\\release\\interpolator\\btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml",
+        "source": "C:\\Users\\Sweet Mei\\.gradle\\caches\\transforms-2\\files-2.1\\b65595d328d46285f8746819ca549a83\\appcompat-1.1.0-alpha05\\res\\interpolator\\btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\platforms\\tempPlugin\\nativescript_material_core\\build\\intermediates\\res\\merged\\release\\interpolator\\fast_out_slow_in.xml",
+        "source": "C:\\Users\\Sweet Mei\\.gradle\\caches\\transforms-2\\files-2.1\\b65595d328d46285f8746819ca549a83\\appcompat-1.1.0-alpha05\\res\\interpolator\\fast_out_slow_in.xml"
+    },
+    {
+        "merged": "F:\\Mobile Development\\Nativescript\\BlinQ_updated_iOS\\platforms\\tempPlugin\\nativescript_material_core\\build\\intermediates\\res\\merged\\release\\interpolator\\btn_radio_to_on_mtrl_animation_interpolator_0.xml",
+        "source": "C:\\Users\\Sweet Mei\\.gradle\\caches\\transforms-2\\files-2.1\\b65595d328d46285f8746819ca549a83\\appcompat-1.1.0-alpha05\\res\\interpolator\\btn_radio_to_on_mtrl_animation_interpolator_0.xml"
+    }
+]
